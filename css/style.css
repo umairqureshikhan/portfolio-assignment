@@ -1,0 +1,288 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+li{
+    list-style-type: none;
+}
+p , span , a {
+    font-size: 18px;
+}
+.display-flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-around{
+    justify-content: space-around;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.text-center{
+    text-align: center;
+}
+.align-center{
+    align-items: center;
+}
+/* ///////////////////////////////////////////////////////////////////////// */
+/* Top NAv SEction*/
+/* ///////////////////////////////////////////////////////////////////////// */
+
+header{
+    background-color: #363543;
+}
+header .navbar .navbar-collapse{
+    justify-content: space-between;
+}
+header .navbar  .navbar-brand{
+    color : #fcfdfe ;
+    font-weight: 600;
+}
+header .navbar .navbar-collapse ul:first-child{
+    margin-left: 100px;  
+}
+header .navbar .navbar-collapse ul:last-child > li{
+    margin-inline: 20px;
+}
+header .navbar .navbar-collapse ul:last-child > li a{
+    color : #fcfdfe ;
+    font-size: 20px;
+}
+#top-header .navbar .navbar-collapse ul li.nav-item:first-child a{
+    color : #fcfdfe ;
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+#top-header .navbar .navbar-collapse ul li.nav-item a{
+    color: #8a8997 ;
+    margin-left: 20px;
+    font-weight: 500;
+
+}
+/* //////////////////////////////////////////////////////////////////////////////////////// */
+/* Man Banner section start */
+/* //////////////////////////////////////////////////////////////////////////////////////// */
+
+section.main-banner-section{
+    background-color: #363543;
+    position: relative;
+}
+section.main-banner-section .inner-column .james-banner-image{
+    width: 500px;
+    border-radius: 50%;
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    background-color:#282834;
+    margin-left: -70px;
+}
+section.main-banner-section .inner-column {
+    padding: 0px 0px;
+}
+section.main-banner-section .inner-column .services-column{
+    color: #8a8997;
+    z-index: 5;
+}
+section.main-banner-section .inner-column .services-column h4{
+    color : #fcfdfe ;
+    font-size: 40px;
+}
+section.main-banner-section .inner-column .services-column a{
+    color: #f1aa42;
+}
+section.main-banner-section .inner-column .services-column h3{
+padding-bottom: 15px;
+}
+section.main-banner-section .inner-column .services-column .social-icons{
+    margin-top: 20px;
+}
+section.main-banner-section .inner-column .services-column .social-icons ul li:first-child{
+    margin-left: 0px;
+}
+section.main-banner-section .inner-column .services-column .social-icons ul li{
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    background-color: #565563;
+    padding: 8px;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline: 10px;
+    font-size: 22px;
+  
+}
+section.main-banner-section .inner-column  .i_am_james{
+    position: relative;
+}
+section.main-banner-section .inner-column  .i_am_james h1:first-child::before{
+    content: '';
+    background: url(style.css);
+    border-bottom: 5px solid #f1aa42;
+    position: absolute;
+    top: 140px;
+    left: 0px;
+    width: 34%;
+
+}
+section.main-banner-section .inner-column  .i_am_james h1:nth-child(1){
+    font-size: 55px;
+    color: #787787;
+}
+section.main-banner-section .inner-column  .i_am_james h1:nth-child(2){
+    font-size: 55px;    
+    color : #fcfdfe ;
+}
+section.main-banner-section .inner-column  .i_am_james p{
+    font-size: 18px;
+    color : #fcfdfe ;
+    padding-right: 50px;
+}
+section.main-banner-section .inner-column  .i_am_james p{
+    color: #8a8997;
+}
+/* //////////////////////////////////////////////////////////////////////////// */
+/* company branding section */
+/* //////////////////////////////////////////////////////////////////////////// */
+
+.logos-section{
+    background-color: #363543;
+    transform: translate(0px, -60px);
+}
+.logos-section .inner-column{
+    padding: 25px 0px;
+    background-color: #565563;
+}
+.logos-section .company-branding{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+}
+.logos-section .company-branding img{
+    padding: 0px 40px;
+    width: 80%;
+    height: 100%;
+}
+.logos-section .meta-logo , .google-logo , .linked-in-logo , .slack-logo{
+    margin: 0px 15px;
+    height: 70px;
+    width: 300px;
+    background-color: #1212258c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.services-cards-section{
+    background-color: #363543;
+    padding: 0px 0px 40px 0px;
+}
+.services-cards-section .services-card{
+    padding: 40px 20px;
+    background-color: #565563;
+    color : #fcfdfe ;
+}
+.services-cards-section .services-card .card-icon ul{
+    padding-bottom: 15px;
+}
+.services-cards-section .services-card .card-icon ul li{
+    width: 30px;
+    height: 30px;
+    background-color:#363543;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding: 25px;
+} 
+.services-cards-section .services-card .card-icon ul li i {
+    color: #f1aa42;
+    font-size: 25px;
+}
+.services-cards-section .services-card .card-para{
+    padding-right: 80px;
+}
+.services-cards-section .services-card .card-para p {
+    font-weight: 500;
+}
+.total-projects-section{
+    background-color: #363543;
+    color : #fcfdfe ;
+    margin-top: -60px;
+    padding: 80px 0px;
+}
+.total-projects-section .total-project-scores{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-right: 250px;
+}
+.total-projects-section .total-project-scores h1{
+    color: #f1aa42;
+    font-weight: 700;
+}
+.total-projects-section .total-project-scores p{
+    font-weight: 500;
+}
+
+.total-projects-section .total-project-scores:last-child{
+    padding-right: 280px;
+}
+.total-projects-section .total-projects-content{
+    padding-right : 300px ;
+}
+.total-projects-section .total-projects-content p {
+    color: #8a8997;
+}
+.total-projects-section .desing-links-parent{
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid;
+    padding-bottom: 20px;
+}
+.total-projects-section .desing-links-parent .design-parent-image{
+    width: 200px;
+    height: 100px;
+}
+.total-projects-section .desing-links-parent .design-parent-image img{
+    width: 100%;
+    height: 100%;
+}
+.total-projects-section .desing-links-parent .design-content-parent{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    align-items: center;
+}
+.total-projects-section .desing-links-parent .design-content-parent .desing-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.total-projects-section .desing-links-parent .design-arrow-link i{
+    color: #f1aa42;
+    font-size: 30px;
+
+}
+.total-projects-section .desing-links-parent:nth-child(2) , .desing-links-parent:nth-child(3){
+    margin-top: 30px;
+} 
+.footer-div{
+    background-color: #565563;
+    padding: 30px;
+}
